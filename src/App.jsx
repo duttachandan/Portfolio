@@ -1,18 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from './Components/NavBar/Navbar'
+import Hero from './Components/Hero/Hero'
+import Skill from './Components/Skill/Skill'
+import About from "./Components/About/About"
+import Projects from './Components/Projects/Projects'
+import Footer from './Components/Footer/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1 
-      className='text-2xl text-green-900 text-center'>
-      Deployed Succesfully
-      </h1>
-    </>
+    <div className='bg-[#091630]'>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Skill/>
+      <Projects/>
+      <Footer/>
+    </div>
   )
 }
 
