@@ -15,18 +15,18 @@ function Navbar() {
                     flex-col md:flex-row text-xl font-semibold'>
                     <Link 
                     className='md:px-5 py-4 cursor-pointer' 
-                    to="/about">
+                    to="/Portfolio/about">
                     About
                     </Link>
                     <Link 
                     className='md:px-5 py-4 cursor-pointer ' 
-                    to="/">
+                    to="/Portfolio/projects">
                     Projects
                     </Link>
                     <Link 
                     className='md:px-5 py-4 cursor-pointer' 
-                    to="/contact">
-                    Contact
+                    to="/Portfolio/">
+                    Home
                     </Link>
                 </div>
             </>
@@ -34,7 +34,7 @@ function Navbar() {
         )
     }
     return (
-        <div className='sticky top-10 right-0 w-full bg-transparent'>
+        <div className='sticky pt-10 top-0 right-0 w-full bg-[#091630]'>
             <nav
                 className='flex py-2 md:h-full sticky top-0 
                 right-0 px-5 justify-between items-center flex-wrap'>
@@ -46,7 +46,7 @@ function Navbar() {
                 <div
                     className={` hidden md:flex  
                     md:items-center md:flex-2 
-                    md:basis-1/2 md:flex-row text-white`}>
+                    md:basis-1/3 min-w-[300px] md:flex-row text-white`}>
                     <NavLinks/>
                 </div>
                 <div

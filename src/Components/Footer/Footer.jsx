@@ -4,7 +4,7 @@ function Footer() {
     return (
         <section 
         className='flex w-full px-14 
-        flex-col md:flex-col'>
+        flex-col md:flex-col bg-[#091630]'>
             <div 
             className='text-white basis-1/2 
             flex flex-col justify-center 

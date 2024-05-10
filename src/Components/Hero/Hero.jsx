@@ -1,5 +1,10 @@
 import React from 'react'
+import { FaGithub, FaDownload  } from "react-icons/fa";
 import HeroImage from "../../assets/hero/heroImage.png"
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa6";
+
 function Hero() {
     return (
         <>
@@ -19,6 +24,35 @@ function Hero() {
                 I'm a <span className='text-green-400'>Frontend Web Developer </span> with over a year of experience creating websites using React.js. 
                 Currently seeking new opportunities. Feel free to contact me if you're interested! 
                 </p>
+                <div className='flex flex-row gap-5 justify-center items-center px-5 py-4'>
+                    <a 
+                    className='text-white text-3xl
+                    hover:text-sky-500'
+                    href="https://github.com/duttachandan">
+                        <FaGithub/>
+                    </a>
+                    <a className='text-white text-3xl
+                    hover:text-sky-500' 
+                    href="https://www.facebook.com/chandan.dutt.566">
+                        <FaFacebook/>
+                    </a>
+                    <a className='text-white text-3xl
+                    hover:text-sky-500' 
+                    href="https://www.linkedin.com/in/chandan-dutta-b2a778170/"
+                    >
+                        <FaLinkedin/>
+                    </a>
+                    <a className='text-white text-3xl
+                    hover:text-sky-500' 
+                    href="https://www.instagram.com/myslv_chandan/">
+                        <FaInstagramSquare/>
+                    </a>
+                    <a className='text-white text-3xl
+                    hover:text-sky-500' 
+                    href="https://drive.google.com/file/d/1blYoRcXKtyhZEf_fV22vKUPyjLdL3qci/view">
+                        <FaDownload />
+                    </a>
+                </div>
             </div>
             <div className='basis-1/2 heroImg'>
                 <img src={HeroImage} alt="" />
