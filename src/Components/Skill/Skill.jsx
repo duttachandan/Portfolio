@@ -8,7 +8,11 @@ function Skill() {
     {/* Skills Section */}
       <div 
       className='w-[95vw] mx-auto h-fit px-20 py-10'>
-      <h1 className='text-3xl text-white'>Techstack:</h1>
+      <h1 
+      className='text-3xl md:text-4xl 
+      font-extrabold text-white pb-4'>
+      Techstack:
+      </h1>
         <div 
         className='flex flex-row flex-wrap justify-center items-center gap-5 pt-5'>
             <div className='text-white'>

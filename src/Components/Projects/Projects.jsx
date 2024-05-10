@@ -10,7 +10,10 @@ function Projects() {
             className='w-full h-fit py-7 bg-[#091630]'>
             <div className='w-[90%] mx-auto md:px-10'>
                 <h1
-                    className='text-3xl text-white'>Projects:</h1>
+                    className='text-3xl md:text-4xl 
+                    font-extrabold text-white pb-4'>
+                    Projects:
+                    </h1>
                 <div
                     className='flex flex-col 
                     md:flex-row flex-wrap 
@@ -18,13 +21,13 @@ function Projects() {
                     {/* 1st Card */}
                     <div
                         className='basis-[90%] lg:basis-[40%] min-w-[250px] 
-                        h-fit max-h-[500px]
+                        h-[500px]
                         px-4 py-4 flex flex-col gap-4 
                         justify-center items-center text-white
                         bg-black/50 rounded-xl'>
                         <img className='rounded-lg' src={Image3} alt="Projects pic" />
                         <h1 className='text-2xl font-bold'>Restraunt Website</h1>
-                        <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, necessitatibus!</p>
+                        <p className='text-gray-600'>It's a Food booking Website, crafted with Html, Css & JavaScript</p>
                         <div
                             className='flex flex-row justify-center
                     items-center flex-wrap gap-2'>
@@ -53,13 +56,13 @@ function Projects() {
                     {/* 2nd CArd */}
                     <div
                         className='basis-[90%] lg:basis-[40%] 
-                        min-w-[250px] h-fit max-h-[500px]
+                        min-w-[250px] h-[500px]
                         px-4 py-4 flex flex-col gap-4 
                         justify-center items-center 
                         text-white bg-black/50 rounded-xl'>
                         <img className='rounded-lg' src={Image4} alt="Projects pic" />
                         <h1 className='text-2xl font-bold'>TechGears</h1>
-                        <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, necessitatibus!</p>
+                        <p className='text-gray-600'>Dynamic e-commerce platform showcasing VR headsets, designed with HTML, CSS, and Bootstrap.</p>
                         <div
                             className='flex flex-row justify-center
                     items-center flex-wrap gap-2'>
@@ -92,13 +95,13 @@ function Projects() {
                     {/* 3rd Card */}
                     <div
                         className='basis-[90%] lg:basis-[40%] 
-                        min-w-[300px] h-fit max-h-[500px]
+                        min-w-[300px] h-[500px]
                         px-4 py-4 flex flex-col gap-4 
                         justify-center items-center text-white
                         bg-black/50 rounded-xl'>
                         <img className='rounded-lg' src={Image5} alt="Projects pic" />
-                        <h1 className='text-2xl font-bold'>Project Name</h1>
-                        <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, necessitatibus!</p>
+                        <h1 className='text-2xl font-bold'>SpaceHub</h1>
+                        <p className='text-gray-600'>Innovative e-commerce site for space exploration gear, crafted with HTML, CSS, and Tailwind CSS.</p>
                         <div
                             className='flex flex-row justify-center
                     items-center flex-wrap gap-2'>
@@ -127,13 +130,13 @@ function Projects() {
                     {/* 4th Card */}
                     <div
                         className='basis-[90%] lg:basis-[40%] 
-                        min-w-[250px] h-fit max-h-[500px]
+                        min-w-[250px] h-[500px]
                         px-4 py-4 flex flex-col gap-4 
                         justify-center items-center text-white
                         bg-black/50 rounded-xl'>
                         <img className='rounded-lg' src={Image2} alt="Projects pic" />
                         <h1 className='text-2xl font-bold'>Ecommerce Website</h1>
-                        <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, necessitatibus!</p>
+                        <p className='text-gray-600'>React-powered e-commerce site with seamless responsiveness, enhanced by Tailwind CSS for sleek design and functionality.</p>
                         <div
                             className='flex flex-row justify-center
                             items-center flex-wrap gap-2'>

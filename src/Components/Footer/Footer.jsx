@@ -30,11 +30,15 @@ function Footer() {
                 id=""  
                 placeholder="Your Name"
                 className='md:w-[400px] w-full rounded-xl 
-                ps-4 py-2 focus:outline-none text-base text-gray-700'  
+                ps-4 py-2 focus:outline-none font-bold
+                text-base text-black bg-white/55 
+                placeholder:font-bold placeholder:text-black'  
                 required/>
                 <input
                 className='md:w-[400px] w-full rounded-xl ps-4 
-                py-2 focus:outline-none text-base text-gray-700' 
+                py-2 focus:outline-none text-base 
+                text-black bg-white/55 font-bold
+                placeholder:text-black placeholder:font-bold' 
                 type="email" 
                 name="emailId"
                 placeholder='YourEmail@gmail.com' 
@@ -46,7 +50,9 @@ function Footer() {
                 className='rounded-lg text-base 
                 md:text-xl outline-none 
                 focus:outline-none h-[100px] md:h-[200px] 
-                md:w-[400px] w-full ps-5 pt-5' 
+                md:w-[400px] w-full ps-5 font-bold
+                pt-5 text-black bg-white/55
+                placeholder:text-black placeholder:font-bold' 
                 id="" 
                 placeholder='Your Message'>
                 </textarea>

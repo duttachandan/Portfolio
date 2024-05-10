@@ -9,7 +9,7 @@ function About() {
             <div className='bg-[#080f19] mx-[5vw] h-fit w-[90vw] pt-5 my-4 py-5 rounded-lg'>
                 <h1
                     className='text-white text-2xl 
-            font-semibold ps-6 md:text-4xl py-4 uppercase'>
+            font-semibold ps-6 md:text-4xl py-4'>
                     About:
                 </h1>
                 <div

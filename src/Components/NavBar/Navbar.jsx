@@ -12,29 +12,38 @@ function Navbar() {
             <>
                 <div
                     className='w-full flex justify-evenly 
-                    flex-col md:flex-row text-xl font-semibold'>
+                    flex-col md:flex-row
+                    text-xl font-semibold '>
                     <Link 
-                    className='md:px-5 py-4 cursor-pointer' 
+                    className='md:px-5 py-4 
+                    cursor-pointer hover:text-violet-600
+                    ' 
+                    to="/Portfolio/">
+                    Home
+                    </Link>
+                    <Link 
+                    className='md:px-5 py-4 cursor-pointer
+                    hover:text-violet-800' 
                     to="/Portfolio/about">
                     About
                     </Link>
                     <Link 
-                    className='md:px-5 py-4 cursor-pointer ' 
+                    className='md:px-5 py-4 cursor-pointer
+                    hover:text-violet-600' 
                     to="/Portfolio/projects">
                     Projects
                     </Link>
-                    <Link 
-                    className='md:px-5 py-4 cursor-pointer' 
-                    to="/Portfolio/">
-                    Home
-                    </Link>
+                    
                 </div>
             </>
 
         )
     }
     return (
-        <div className='sticky pt-10 top-0 right-0 w-full bg-[#091630]'>
+        <div 
+        className='sticky pt-10 top-0 
+        right-0 w-full bg-[#091630] z-10'
+        >
             <nav
                 className='flex py-2 md:h-full sticky top-0 
                 right-0 px-5 justify-between items-center flex-wrap'>
